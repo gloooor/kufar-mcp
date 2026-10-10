@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Kufar session (JWT, phone number) — old and new locations
+.kufar-session.json
+session.json
+.kufar-mcp/
+
+# Personal data: ad drafts and photos
+drafts/
+test-photos/
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.webp
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+.npmrc
+
+# Build artifacts and junk
+*.tgz
+*.log
+npm-debug.log*
+.DS_Store
+.vscode/
+.idea/
